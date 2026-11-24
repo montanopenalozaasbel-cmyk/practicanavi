@@ -1,0 +1,127 @@
+body {
+  background-color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 15px;
+}
+
+#encabezado {
+  border: 2px solid red;
+  padding: 10px;
+  text-align: center;
+}
+
+#encabezado h1 {
+  color: blue;
+  font-size: 48px;
+  margin: 5px 0 15px 0;
+}
+
+.menu a {
+  display: inline-block;
+  border: 3px solid #3a4a00;
+  background-color: #c9d400;
+  color: blue;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 8px 25px;
+  margin: 4px;
+}
+
+.menu a:hover {
+  background-color: blue;
+  color: white;
+}
+
+#contenido {
+  border: 2px solid green;
+  margin: 15px 0;
+  padding: 20px;
+  min-height: 300px;
+  font-size: 20px;
+}
+
+#contenido h2 {
+  color: blue;
+}
+
+#pie {
+  border: 2px solid red;
+  text-align: center;
+  color: blue;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+th, td {
+  border: 2px solid #3a4a00;
+  padding: 8px 15px;
+}
+th {
+  background-color: blue;
+  color: white;
+}
+
+.caja {
+  border: 2px dashed blue;
+  background-color: #e3ea5a;
+  padding: 10px;
+  margin: 10px 0;
+}
+.destacada {
+  background-color: white;
+  border-color: red;
+}
+#caja-especial {
+  color: red;
+  font-weight: bold;
+}
+ 
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 18px;
+  margin: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: red;
+}
+
+.personaje {
+  font-size: 50px;
+  background-color: white;
+  border: 3px solid red;
+  padding: 10px 20px;
+}
+#descripcion {
+  border: 2px solid blue;
+  background-color: white;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+input {
+  font-size: 18px;
+  padding: 8px;
+  border: 2px solid blue;
+}
+li {
+  margin: 8px 0;
+}
+.comprado {
+  text-decoration: line-through;
+  color: gray;
+}
+#total {
+  font-weight: bold;
+  color: red;
+}
